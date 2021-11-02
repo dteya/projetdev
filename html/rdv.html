@@ -1,0 +1,87 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="acc.css">
+    <title>GTKM</title>
+  </head>
+  <body>
+    <header>
+      <div class "head">
+        <h2 class="logo"> GetToKnowMe </h2>
+      </div>
+      <nav>
+        <ul class = "links">
+          <li> <a class = "link" href="acc.html"> Accueil </a> </li>
+          <li> <a class = "link" href = "cv.html"> CV </a> </li>
+          <li> <a class = "link" href = rdv.html> Un café? </a> </li>
+          //etc
+      </nav>
+    </header>
+
+    <main>
+      <div class="contact"><br>
+        <div class="img">
+          <img src="">
+        </div>
+        <pre class = "bigTitles" >  Un café ? <3 </pre>
+      <h1> Maintenant que tu en as appris sur moi, et si on faisait le contraire ?</h1>
+    <div class="formulaire">
+      <fieldset>
+      <form action="contact.php" method="post">
+        <input type="radio" name="sexe" id="mr" value="Monsieur">
+        <label for="mr">Monsieur</label>
+        <input type="radio" name="sexe" id="mme" value="Madame">
+        <label for="mme">Madame</label>
+            <label class="required">Nom</label><br><br>
+            <input type="text" name="nom" id="nom" />
+            <label class="required">Prénom</label><br><br>
+            <input type="text" name="prenom" id="prenom" />
+            <label class="required">Numéro</label>
+            <input type="number" name="num" id="num" size="12" />
+        <label class="required">Ton petit message</label>
+        <br><br>
+        <textarea name="msg" rows="4" cols="50" tabindex="7" class="autre"></textarea>
+        <p><input type="submit" value="Envoyer" id="valider"></p>
+      </form>
+      </fieldset>
+      </div>
+    </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="info">
+          <ul>
+            <li>
+              <h1>Contact </h1>
+              <ul>
+                <li>Mail : teyadidi2@gmail.com/li>
+                <li>Numéro : +33(0)778404167</li>
+                <li>37 Rue Rouget De Lisle, 92310 Issy-les-Moulineaux</li>
+              </ul>
+            </li>
+          </ul>
+          <br>
+          <h6>© 2021, DIDI corporation</h6>
+        </div>
+        <div class="info">
+          <ul>
+            <li>
+              <h1>Navigation </h1>
+              <ul>
+                <li><a class="petit" href="Acc.html">Accueil</a></li>
+                <li><a class="petit" href="cv.html">CV</a></li>
+                <li><a class="petit" href="RDV.html">Rendez-vous</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="info">
+          <h1>Besoin d'aide ?</h1>
+          <a class="petit" href="Conditions.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+          <br><br>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
